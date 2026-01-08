@@ -1,0 +1,26 @@
+# Dark Mode Configuration (Optional)
+# 
+# If you want dark mode by DEFAULT, replace the contents of
+# .streamlit/config.toml with this file's contents
+
+[theme]
+# Set dark mode as default
+base = "dark"
+
+# Primary accent color (purple)
+primaryColor = "#667eea"
+
+# Main background (dark)
+backgroundColor = "#0e1117"
+
+# Secondary background (slightly lighter dark)
+secondaryBackgroundColor = "#262730"
+
+# Text color (light)
+textColor = "#fafafa"
+
+# Font
+font = "sans serif"
+
+# Note: Users can still override this in Settings → Theme
+# This just sets the DEFAULT theme to dark mode
